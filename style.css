@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 .btn {
@@ -48,9 +49,14 @@
 .back-vid h2 {
   position: relative;
   z-index: 3;
-  font-size: 12vw;
+  font-size: 11vw;
   color: #fff;
-  text-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 20px 30px rgba(0, 0, 0, 0.9);
+  transition: 0.5s;
+}
+h2:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
 }
 
 .nav-bar {
@@ -91,20 +97,7 @@
   display: none;
 }
 
-.content {
-  text-align: center;
-}
-.content h2 {
-  font-size: 140px;
-  color: #fff;
-  font-weight: 600;
-  transition: 0.5s;
-}
 
-.content h2:hover {
-  -webkit-text-stroke: 2px #fff;
-  color: transparent;
-}
 
 @media screen and (max-width: 1000px) {
   .back1 {
