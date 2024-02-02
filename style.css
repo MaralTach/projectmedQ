@@ -54,9 +54,9 @@
   text-shadow: 0 20px 30px rgba(0, 0, 0, 0.9);
   transition: 0.5s;
 }
-h2:hover{
-    -webkit-text-stroke: 2px #fff;
-    color: transparent;
+h2:hover {
+  -webkit-text-stroke: 2px #fff;
+  color: transparent;
 }
 
 .nav-bar {
@@ -97,9 +97,7 @@ h2:hover{
   display: none;
 }
 
-
-
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .back1 {
     display: none;
   }
@@ -120,7 +118,7 @@ h2:hover{
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .back1 {
     display: none;
   }
@@ -162,7 +160,7 @@ h2:hover{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
   }
   .nav-bar {
